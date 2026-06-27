@@ -1,0 +1,40 @@
+services:
+  # ── Backend API ──
+  - type: web
+    name: discoverysamal-resort
+    runtime: node
+    region: oregon
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: EMAIL_SERVICE_URL
+        sync: false
+      - key: EMAIL_SERVICE_API_KEY
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: RESORT_PHONE
+        sync: false
+      - key: RESORT_EMAIL
+        sync: false
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: CLIENT_URL
+        value: "https://www.discoverysamal-resort.org"
+      - key: PROJECT_ID
+        value: "DSCV-S4ML0R7X"
+      - key: PROJECT_NAME
+        value: "Discovery Samal Resort"
+      - key: DOMAIN
+        value: "discoverysamal-resort.org"

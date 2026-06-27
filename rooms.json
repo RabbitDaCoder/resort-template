@@ -1,0 +1,527 @@
+{
+  "_meta": {
+    "source": "Discovery Samal Resort — official client-supplied rate sheet (May 2026)",
+    "currency": "PHP",
+    "checkIn": "14:00",
+    "checkOut": "12:00",
+    "vatInclusive": true,
+    "address": "White Beach, Sitio Manggayad, Station 3, Boracay Island, Malay, Aklan 5608, Philippines",
+    "pricingNote": "Client-supplied selling prices are the source of truth. The published rate displayed on marketing surfaces is generated as 2× the selling price with a permanent 50% OFF badge for promotional presentation.",
+    "globalInclusions": [
+      "Breakfast, Lunch & Dinner (Full Buffet Meals)",
+      "Roundtrip Caticlan Airport transfer",
+      "Unlimited bottomless drinks during meals",
+      "Exclusive access to swimming pool",
+      "Beachfront access",
+      "Multipurpose Pavilion access",
+      "Free parking",
+      "Free WiFi",
+      "Pet friendly"
+    ],
+    "extraGuestPolicy": {
+      "extraAdultRate": 1500,
+      "extraAdultCurrency": "PHP",
+      "extraAdultNote": "₱1,500 per person per night beyond the room's base capacity (includes full board meals).",
+      "kidsFreeAge": 6,
+      "kidsFreeNote": "Kids aged 6 and below stay free — full board meals included."
+    },
+    "discountSystem": {
+      "type": "permanent-marketing",
+      "percentage": 50,
+      "label": "50% OFF",
+      "note": "Generated client-side: oldPrice = 2 × currentPrice."
+    }
+  },
+
+  "rooms": [
+    {
+      "id": "standard-room-poolview",
+      "slug": "standard-room-poolview",
+      "name": "Standard Room Poolview",
+      "category": "Standard",
+      "location": "White Beach, Sitio Manggayad, Station 3, Boracay Island, Malay, Aklan 5608, Philippines",
+      "tagline": "Restful poolside comfort for two",
+      "shortDescription": "An air-conditioned poolview retreat with one comfortable bed — the perfect starter stay for couples on a Boracay escape.",
+      "longDescription": "Open your day to a tranquil pool view and the gentle hush of Station 3. This cozy room sleeps two in comfort and includes full board meals, roundtrip Caticlan transfers, and unlimited beverages during dining.",
+
+      "currentPrice": 4000,
+      "oldPrice": 8000,
+      "discountPercentage": 50,
+      "discountLabel": "50% OFF",
+
+      "capacity": { "base": 2, "max": 2 },
+      "goodFor": 2,
+      "maxOccupancy": 2,
+      "view": "Pool view",
+      "bedType": "1 Bed",
+      "bedConfiguration": [
+        "One (1) bed",
+        "Pool view",
+        "Private bathroom",
+        "Air-conditioned"
+      ],
+
+      "roomFeatures": [
+        "Pool view",
+        "Air-conditioned",
+        "Private bathroom",
+        "Fits 2 guests"
+      ],
+      "highlights": [
+        "Direct pool view",
+        "Quiet Station 3 location",
+        "Full board meals included",
+        "Roundtrip Caticlan transfers included"
+      ],
+      "amenities": [
+        "Air conditioner",
+        "Private bathroom",
+        "Free toiletries",
+        "Free WiFi",
+        "Flat-screen TV"
+      ],
+
+      "pricePerNight": 8000,
+      "publishedRate": 8000,
+      "bestRate": 4000,
+
+      "images": [],
+      "pendingImageUpload": true,
+
+      "featured": false,
+      "bookingUrl": "/booking?room=standard-room-poolview"
+    },
+
+    {
+      "id": "classic-room-beach-view",
+      "slug": "classic-room-beach-view",
+      "name": "Classic Room Beach View",
+      "category": "Classic",
+      "location": "White Beach, Sitio Manggayad, Station 3, Boracay Island, Malay, Aklan 5608, Philippines",
+      "tagline": "A king-bedded retreat with a beach view",
+      "shortDescription": "A king-bedded room with a serene beach view, full board meals, and roundtrip Caticlan transfers.",
+      "longDescription": "Wake up to the rhythm of White Beach in this classic king-bedded room. Fully air-conditioned with all the in-room comforts of a Boracay Sands stay, the package includes full board buffet meals, roundtrip transfers, and exclusive access to resort facilities.",
+
+      "currentPrice": 5500,
+      "oldPrice": 11000,
+      "discountPercentage": 50,
+      "discountLabel": "50% OFF",
+
+      "capacity": { "base": 2, "max": 3 },
+      "goodFor": 2,
+      "maxOccupancy": 3,
+      "view": "Beach view",
+      "bedType": "1 King bed",
+      "bedConfiguration": [
+        "One (1) king-sized bed",
+        "Beach view",
+        "Private bathroom",
+        "Air-conditioned"
+      ],
+
+      "roomFeatures": [
+        "Beach view",
+        "King-sized bed",
+        "Air-conditioned",
+        "Fits 2–3 guests"
+      ],
+      "highlights": [
+        "Serene beach view",
+        "King-sized bed for two",
+        "Mini-bar & coffee amenities",
+        "Cable TV and free toiletries"
+      ],
+      "amenities": [
+        "Free toiletries",
+        "Bathrobes",
+        "Hair dryer",
+        "Clothes rack",
+        "Wardrobe or closet",
+        "Electric kettle",
+        "Air conditioner",
+        "Flat-screen TV with cable",
+        "Wi-Fi",
+        "Telephone",
+        "Refrigerator",
+        "Minibar"
+      ],
+
+      "pricePerNight": 11000,
+      "publishedRate": 11000,
+      "bestRate": 5500,
+
+      "images": [
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04907-2.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04904.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04888.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04859.jpg"
+      ],
+      "pendingImageUpload": false,
+
+      "featured": true,
+      "bookingUrl": "/booking?room=classic-room-beach-view"
+    },
+
+    {
+      "id": "premier-suite-beachfront",
+      "slug": "premier-suite-beachfront",
+      "name": "Premier Suite Beachfront",
+      "category": "Premier",
+      "location": "White Beach, Sitio Manggayad, Station 3, Boracay Island, Malay, Aklan 5608, Philippines",
+      "tagline": "Two-queen suite directly beachfront",
+      "shortDescription": "A premier beachfront suite with two queen beds — designed for friends or a small family stepping straight out to White Beach.",
+      "longDescription": "Set right on the beachfront, the Premier Suite places you steps from the sand with the lull of the surf as your soundtrack. Two queen beds accommodate up to four guests, with a balcony framing the Sulu Sea horizon.",
+
+      "currentPrice": 8000,
+      "oldPrice": 16000,
+      "discountPercentage": 50,
+      "discountLabel": "50% OFF",
+
+      "capacity": { "base": 3, "max": 4 },
+      "goodFor": 3,
+      "maxOccupancy": 4,
+      "view": "Beachfront",
+      "bedType": "2 Queen beds",
+      "bedConfiguration": [
+        "Two (2) queen-sized beds",
+        "Beachfront positioning",
+        "Private balcony",
+        "En suite bathroom"
+      ],
+
+      "roomFeatures": [
+        "Direct beachfront",
+        "Two queen beds",
+        "Private balcony",
+        "Fits 3–4 guests"
+      ],
+      "highlights": [
+        "Direct beachfront access",
+        "Two queen-sized beds",
+        "Private balcony with sea view",
+        "Lounge beds on the balcony"
+      ],
+      "amenities": [
+        "Free toiletries",
+        "Bathrobes",
+        "Hair dryer",
+        "Clothes rack",
+        "Wardrobe or closet",
+        "Sofa",
+        "Desk",
+        "Electric kettle",
+        "Balcony",
+        "Lounge beds",
+        "Air conditioner",
+        "Flat-screen TV with cable",
+        "Wi-Fi",
+        "Telephone",
+        "Refrigerator",
+        "Minibar"
+      ],
+
+      "pricePerNight": 16000,
+      "publishedRate": 16000,
+      "bestRate": 8000,
+
+      "images": [
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05275.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05295.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05311-3.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05323-2.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05332.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05343-2.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05351.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05353-1.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05360.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05402.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05408.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05411-1.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05425.jpg"
+      ],
+      "pendingImageUpload": false,
+
+      "featured": true,
+      "bookingUrl": "/booking?room=premier-suite-beachfront"
+    },
+
+    {
+      "id": "deluxe-beach-view",
+      "slug": "deluxe-beach-view",
+      "name": "Deluxe Beach View",
+      "category": "Deluxe",
+      "location": "White Beach, Sitio Manggayad, Station 3, Boracay Island, Malay, Aklan 5608, Philippines",
+      "tagline": "Two connecting rooms with a king and two queens",
+      "shortDescription": "Two connecting rooms — one king bed and two queen beds — ideal for a family of six with a sweeping beach view.",
+      "longDescription": "Spacious and considered, the Deluxe Beach View links two connecting rooms into a single retreat for up to six guests. A king bed in one suite and two queen beds in the other open onto a private balcony with a scenic view of White Beach.",
+
+      "currentPrice": 10500,
+      "oldPrice": 21000,
+      "discountPercentage": 50,
+      "discountLabel": "50% OFF",
+
+      "capacity": { "base": 4, "max": 6 },
+      "goodFor": 6,
+      "maxOccupancy": 6,
+      "view": "Beach view",
+      "bedType": "1 King + 2 Queen beds (2 connecting rooms)",
+      "bedConfiguration": [
+        "One (1) king-sized bed",
+        "Two (2) queen-sized beds",
+        "Two connecting rooms",
+        "Private balcony with lounge beds",
+        "En suite bathroom with bathtub"
+      ],
+
+      "roomFeatures": [
+        "Two connecting rooms",
+        "Sleeps up to 6 guests",
+        "Private balcony with beach view",
+        "Bathtub in en suite bathroom"
+      ],
+      "highlights": [
+        "Two connecting rooms for privacy and togetherness",
+        "King + two queen bed configuration",
+        "Private balcony with scenic beach view",
+        "Bathtub in en suite bathroom"
+      ],
+      "amenities": [
+        "Free toiletries",
+        "Bathtub",
+        "Bathrobes",
+        "Hair dryer",
+        "Clothes rack",
+        "Wardrobe or closet",
+        "Sofa",
+        "Desk",
+        "Electric kettle",
+        "Balcony",
+        "Lounge beds",
+        "Air conditioner",
+        "Flat-screen TV with cable",
+        "Wi-Fi",
+        "Telephone",
+        "Refrigerator",
+        "Minibar"
+      ],
+
+      "pricePerNight": 21000,
+      "publishedRate": 21000,
+      "bestRate": 10500,
+
+      "images": [
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05079.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05087.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05104.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05112.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05129.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05145.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05173-1.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05175.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05351.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05353-1.jpg"
+      ],
+      "pendingImageUpload": false,
+
+      "featured": true,
+      "bookingUrl": "/booking?room=deluxe-beach-view"
+    },
+
+    {
+      "id": "family-beachfront-suite",
+      "slug": "family-beachfront-suite",
+      "name": "Family Beachfront Suite",
+      "category": "Family",
+      "location": "White Beach, Sitio Manggayad, Station 3, Boracay Island, Malay, Aklan 5608, Philippines",
+      "tagline": "Two-bedroom beachfront retreat for the whole family",
+      "shortDescription": "A two-bedroom beachfront suite with two beds in each room — built for families of up to eight.",
+      "longDescription": "Generously sized for multi-generational stays, the Family Beachfront Suite features two bedrooms with two beds each — sleeping up to eight guests directly beside White Beach. Full board meals and roundtrip transfers are included throughout your stay.",
+
+      "currentPrice": 13600,
+      "oldPrice": 27200,
+      "discountPercentage": 50,
+      "discountLabel": "50% OFF",
+
+      "capacity": { "base": 6, "max": 8 },
+      "goodFor": 8,
+      "maxOccupancy": 8,
+      "view": "Beachfront",
+      "bedType": "4 Beds across 2 bedrooms",
+      "bedConfiguration": [
+        "Two (2) bedrooms",
+        "Two (2) beds in each bedroom",
+        "Direct beachfront",
+        "Private bathroom(s)",
+        "Air-conditioned"
+      ],
+
+      "roomFeatures": [
+        "Two-bedroom layout",
+        "Direct beachfront",
+        "Sleeps up to 8 guests",
+        "Family-friendly suite"
+      ],
+      "highlights": [
+        "Two bedrooms — two beds each",
+        "Direct beachfront for the whole family",
+        "Sleeps up to 8 guests comfortably",
+        "Full board meals & airport transfers included"
+      ],
+      "amenities": [
+        "Free toiletries",
+        "Bathrobes",
+        "Hair dryer",
+        "Clothes rack",
+        "Wardrobe or closet",
+        "Electric kettle",
+        "Air conditioner",
+        "Flat-screen TV with cable",
+        "Wi-Fi",
+        "Telephone",
+        "Refrigerator",
+        "Minibar"
+      ],
+
+      "pricePerNight": 27200,
+      "publishedRate": 27200,
+      "bestRate": 13600,
+
+      "images": [
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04943-2.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04945.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04955.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04968-2.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB04977.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05000.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05015.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05019.jpg",
+        "https://discoverysamal.com/wp-content/uploads/2026/03/RCB05036.jpg"
+      ],
+      "pendingImageUpload": false,
+
+      "featured": true,
+      "bookingUrl": "/booking?room=family-beachfront-suite"
+    },
+
+    {
+      "id": "seaview-villa",
+      "slug": "seaview-villa",
+      "name": "SeaView Villa",
+      "category": "Villa",
+      "location": "White Beach, Sitio Manggayad, Station 3, Boracay Island, Malay, Aklan 5608, Philippines",
+      "tagline": "Three-bedroom villa with panoramic sea views",
+      "shortDescription": "A three-bedroom seaview villa with two beds in each room — built for groups of up to fifteen.",
+      "longDescription": "Spread out across three bedrooms with two beds each, the SeaView Villa anchors a private wing of the resort with sweeping views of the Sulu Sea. Ideal for celebrations, large families, or barkada getaways, the villa includes full board meals and roundtrip transfers for every guest.",
+
+      "currentPrice": 15600,
+      "oldPrice": 31200,
+      "discountPercentage": 50,
+      "discountLabel": "50% OFF",
+
+      "capacity": { "base": 10, "max": 15 },
+      "goodFor": 10,
+      "maxOccupancy": 15,
+      "view": "Sea view",
+      "bedType": "6 Beds across 3 bedrooms",
+      "bedConfiguration": [
+        "Three (3) bedrooms",
+        "Two (2) beds in each bedroom",
+        "Sea view",
+        "Multiple bathrooms",
+        "Air-conditioned"
+      ],
+
+      "roomFeatures": [
+        "Three-bedroom villa",
+        "Sweeping sea views",
+        "Sleeps 10–15 guests",
+        "Group & celebration ready"
+      ],
+      "highlights": [
+        "Three bedrooms — two beds each",
+        "Panoramic sea views",
+        "Sleeps up to 15 guests",
+        "Perfect for group celebrations"
+      ],
+      "amenities": [
+        "Air conditioner",
+        "Private bathrooms",
+        "Free WiFi",
+        "Flat-screen TVs",
+        "Refrigerator",
+        "Free toiletries"
+      ],
+
+      "pricePerNight": 31200,
+      "publishedRate": 31200,
+      "bestRate": 15600,
+
+      "images": [],
+      "pendingImageUpload": true,
+
+      "featured": true,
+      "bookingUrl": "/booking?room=seaview-villa"
+    },
+
+    {
+      "id": "luxury-villa",
+      "slug": "luxury-villa",
+      "name": "Luxury Villa",
+      "category": "Villa",
+      "location": "White Beach, Sitio Manggayad, Station 3, Boracay Island, Malay, Aklan 5608, Philippines",
+      "tagline": "Five-bedroom signature villa for up to 20 guests",
+      "shortDescription": "The resort's signature villa — five bedrooms with two beds in each room — for grand gatherings of up to twenty.",
+      "longDescription": "Boracay Sands' flagship Luxury Villa is the most spacious accommodation on the property. Five bedrooms with two beds each host up to twenty guests in a private, curated setting — built for weddings, milestone celebrations, and exclusive corporate retreats. Full board meals, roundtrip Caticlan transfers, and exclusive facility access are included for every guest.",
+
+      "currentPrice": 22000,
+      "oldPrice": 44000,
+      "discountPercentage": 50,
+      "discountLabel": "50% OFF",
+
+      "capacity": { "base": 15, "max": 20 },
+      "goodFor": 20,
+      "maxOccupancy": 20,
+      "view": "Signature villa",
+      "bedType": "10 Beds across 5 bedrooms",
+      "bedConfiguration": [
+        "Five (5) bedrooms",
+        "Two (2) beds in each bedroom",
+        "Multiple bathrooms",
+        "Private villa setting",
+        "Air-conditioned"
+      ],
+
+      "roomFeatures": [
+        "Five-bedroom signature villa",
+        "Sleeps up to 20 guests",
+        "Private villa setting",
+        "Wedding & event ready"
+      ],
+      "highlights": [
+        "Five bedrooms — two beds each",
+        "Sleeps up to 20 guests",
+        "Signature private villa",
+        "Ideal for weddings and corporate retreats"
+      ],
+      "amenities": [
+        "Air conditioner",
+        "Multiple private bathrooms",
+        "Free WiFi",
+        "Flat-screen TVs",
+        "Refrigerator",
+        "Free toiletries",
+        "Spacious living areas"
+      ],
+
+      "pricePerNight": 44000,
+      "publishedRate": 44000,
+      "bestRate": 22000,
+
+      "images": [],
+      "pendingImageUpload": true,
+
+      "featured": true,
+      "bookingUrl": "/booking?room=luxury-villa"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+const mongoose = require("mongoose");
+
+const refreshTokenSchema = new mongoose.Schema({
+  token: { type: String, required: true, unique: true },
+  admin: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Admin",
+    required: true,
+  },
+  expiresAt: { type: Date, required: true },
+  createdAt: { type: Date, default: Date.now },
+});
+
+refreshTokenSchema.index({ expiresAt: 1 }, { expireAfterSeconds: 0 });
+
+module.exports = mongoose.model("RefreshToken", refreshTokenSchema);

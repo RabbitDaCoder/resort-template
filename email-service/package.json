@@ -1,0 +1,20 @@
+{
+  "name": "discoverysamal-resort-email-service",
+  "version": "1.0.0",
+  "description": "Vercel-hosted email relay service for Discovery Samal Resort",
+  "main": "api/send.js",
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
+  "dependencies": {
+    "morgan": "^1.10.1",
+    "nodemailer": "^8.0.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
